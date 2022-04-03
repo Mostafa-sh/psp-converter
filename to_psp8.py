@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-# to_psp8.py coverts pseudopotentials from upf to psp8 format. 
-#
-# Copyright (C) 2022 Mostafa Faghih Shojaei <mfs6@gatech.edu>
-#
+# to_psp8.py converts pseudopotentials from upf to psp8 format. 
 # Python 3.6 and numpy are required to use this script.
 
 import re

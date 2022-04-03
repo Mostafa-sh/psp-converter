@@ -1,5 +1,5 @@
 # psp-converter (upf to psp8)
-This repository provides a python script for converting pseudopotentials from upf to psp8. For more information about the upf and psp8 format see
+This repository provides a python script for converting pseudopotentials from upf to psp8. For more information about the upf and psp8 formats see
 [1](http://pseudopotentials.quantum-espresso.org/home/unified-pseudopotential-format), [2](https://esl.cecam.org/data/upf/), and [3](https://docs.abinit.org/developers/psp8_info/).
 
 ### Installation:

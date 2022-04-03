@@ -16,10 +16,6 @@ where path_to_psp.upf is the path to the pseudopotential file in the upf format.
 ```
 python to_psp8.py path_to_psp1.upf path_to_psp2.upf path_to_psp3.upf
 ```
-To convert all pseudopotentials in a folder, use
-```
-python to_psp8.py path_to_folder
-```
 To use in a python script, include
 ```
 import to_psp8

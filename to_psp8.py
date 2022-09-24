@@ -13,14 +13,13 @@ def main():
 
     help = '''
 How to use in terminal:
-    ----------------------------------------------
-    python to_psp8.py psp.upf 
-    ----------------------------------------------
-    where psp.upf is the path to the pseudopotential file. Also works on multiple files,
-    e.g., to convert 3 files run
-    -----------------------------------------------
-    python to_psp8.py psp1.upf psp2.upf psp3.upf 
-    -----------------------------------------------
+    -----------------------------------------------------------------------
+    python to_psp8.py path/to/psp.upf 
+    -----------------------------------------------------------------------
+    To convert multiple files, run
+    -----------------------------------------------------------------------
+    python to_psp8.py path/to/psp1.upf path/to/psp2.upf path/to/psp3.upf  
+    -----------------------------------------------------------------------
     converted output files are generated in the same directory as the corresponding
     input files and have the same name, but psp8 file extension. 
 

@@ -1,31 +1,27 @@
 # psp-converter (upf to psp8)
-This repository provides a python script for converting pseudopotentials from upf to psp8. For more information about the upf and psp8 formats see
+A python script for converting pseudopotentials from upf to psp8. For more information about the upf and psp8 formats see
 [1](http://pseudopotentials.quantum-espresso.org/home/unified-pseudopotential-format), [2](https://esl.cecam.org/data/upf/), and [3](https://docs.abinit.org/developers/psp8_info/).
 
-### Installation:
-Use the following command to simply download `to_psp8.py` into your working directory
+
+### Usage
+Download `to_psp8.py` into your working directory, and run
 ```
-wget https://raw.githubusercontent.com/mostafa-sh/psp-converter/main/to_psp8.py
+python to_psp8.py path/to/psp.upf
 ```
-### Usage:
-Run the code in the terminal by
+To convert multiple files, e.g. 3
 ```
-python to_psp8.py path_to_psp.upf
+python to_psp8.py path/to/psp1.upf path/to/psp2.upf path/to/psp3.upf
 ```
-where path_to_psp.upf is the path to the pseudopotential file in the upf format. For multiple files (let's say 3), use
-```
-python to_psp8.py path_to_psp1.upf path_to_psp2.upf path_to_psp3.upf
-```
-To use in a python script, include
+In a python script
 ```
 import to_psp8
-to_psp8.convert(path_to_psp.upf)
+to_psp8.convert(path/to/psp.upf)
 ```
-The converted output files are generated in the same directory as the corresponding input files and have the same names but psp8 file extension. 
+The converted output files are generated in the same directory as the corresponding input files and have the same names but psp8 file extension.
 
-### Requirements:
+### Requirements
  - python 3.6 or higher
  - numpy
 
-### Limitation:
+### Limitation
 The current code does not support pseudopotentials with nonlinear core correction. This will be added.
